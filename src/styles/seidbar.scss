@@ -1,0 +1,12 @@
+@import "./_proparties.scss";
+
+.seidbar{
+    width: 320px;
+    padding: 7em 2em 0 2em;
+}
+
+@media only screen and (max-width:1024px){
+    .seidbar{
+        display: none;
+    }
+}
