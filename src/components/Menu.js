@@ -13,7 +13,9 @@ const Menu = () => {
             <FontAwesomeIcon className='icon' icon={faComment} />
             <FontAwesomeIcon className='icon' icon={faCompass} />
             <FontAwesomeIcon className='icon' icon={faHeart} />
-            <ProfilIcon iconSize="small" image={image} />
+            <img
+                style={{ borderRadius: "50%", width: "28px", height: "28px" }}
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQotgg-et_w1SFoda8Vw8VbYXAF8qrCfrv-jfx6_uo1EGV-FpOQecrKpwn1JiA9I19SsGU&usqp=CAU" alt="" />
         </div>
     )
 }

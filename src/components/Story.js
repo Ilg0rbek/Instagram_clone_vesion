@@ -13,7 +13,7 @@ const Story = () => {
 
     return (
         <div className="story">
-            <ProfilIcon iconSize='big' storyBorder={true} />
+            <ProfilIcon iconSize='small' storyBorder={true} />
             <span className="accounName">{accountName}</span>
         </div>
     )

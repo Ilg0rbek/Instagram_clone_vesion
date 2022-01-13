@@ -3,7 +3,7 @@ import "../styles/ProfilIcon.scss"
 
 const ProfilIcon = (props) => {
 
-    const { iconSize, storyBorder } = props;
+    const { storyBorder, iconSize } = props;
 
     function getRandomInt(min, max) {
         min = Math.ceil(min)
@@ -18,7 +18,7 @@ const ProfilIcon = (props) => {
 
     return (
         <div className={storyBorder ? "storyBorder" : ""}>
-            <img style={{ borderRadius: "50%", width: "50px" }} src={profileImage} alt="" className={`profileIcon  ${iconSize}`} />
+            <img style={{ borderRadius: "50%", width: "60px" }} src={profileImage} alt="" className={`profileIcon  ${iconSize}`} />
         </div>
     )
 }
